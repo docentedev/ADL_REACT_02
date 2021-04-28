@@ -10,6 +10,14 @@
 - vincular css bootstrap a React
 - Limpiar readme.md
 - Iniciar proyecto `npm start`
+- vincular a Gitdhub
+
+```bash
+git remote add origin https://github.com/docentedev/ADL_REACT_02.git
+git branch -M main
+git push -u origin main
+```
+
 - Subir proyecto a repositorio
 
 ## Componentes
