@@ -41,3 +41,5 @@ git push -u origin main
 - iterar sobre productos
 - importar typo Producto
 - Importar Home en App
+
+- listado por componente

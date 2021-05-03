@@ -1,13 +1,10 @@
-import productos, { Producto } from '../../productos';
+import ProductList from '../../components/product-list/ProductList';
+import productos from '../../productos';
 
 const Home = () => {
     return (
         <div>
-            {productos.map((producto: Producto, index: number) => (
-                <div key={index}>
-                    <strong>{producto.nombre}</strong>
-                </div>
-            ))}
+            <ProductList productos={productos} />
         </div>
     )
 }

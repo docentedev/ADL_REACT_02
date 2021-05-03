@@ -1,7 +1,14 @@
-const Product = () => {
+import { Producto } from "../../productos"
+
+interface ProductProps {
+    product: Producto
+}
+
+const Product = ({ product }: ProductProps) => {
     return (
         <div>
-            Product
+            <strong>{product.nombre}</strong>
+            <hr />
         </div>
     )
 }
