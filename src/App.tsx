@@ -1,13 +1,11 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Home from './containers/home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <div className="alert alert-primary" role="alert">
-        Hola Mundo!
-      </div>
+    <div className="App container">
+      <Home />
     </div>
   );
 }

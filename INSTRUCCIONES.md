@@ -33,4 +33,11 @@ git push -u origin main
   - Menu
   - Seccion Principal
   - Product
-  
+
+## Importar productoa
+
+- Crear archivo productos.ts
+- importar productos en Home.tsx
+- iterar sobre productos
+- importar typo Producto
+- Importar Home en App
