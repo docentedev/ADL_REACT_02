@@ -43,3 +43,5 @@ git push -u origin main
 - Importar Home en App
 
 - listado por componente
+
+- Agregando estilos
